@@ -328,4 +328,136 @@ section .header{
 
 .container-pricing{
     color: #F2E9E4;
+    height: 45rem;
+}
+
+.sub-header{
+    color: #4A4E69;
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
+}
+
+.pricing{
+    margin-top: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    justify-items: center;
+}
+
+.pricing .card{
+    padding: 3rem 2rem;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    width: 350px;
+}
+
+.container-pricing .pricing #card6{
+    position: relative;
+    left: 26rem;
+    top: -7rem;
+}
+
+.container-pricing .pricing #card7{
+    position: relative;
+    left: 2rem;
+    top: -21rem;
+}
+
+.pricing .card:hover{
+    background-color: #f2f1ff;
+}
+
+.pricing .card .content{
+    flex: 1;
+    margin-bottom: 2rem;
+}
+
+.pricing .card h4{
+    margin-bottom: 1rem;
+    color: #4A4E69;
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+.pricing .card h3{
+    color: #22223B;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 600;
+    border-bottom: 2px dashed #E1AFD1;
+}
+
+.pricing .card p{
+    color: #9A8C98;
+}
+
+.container3 img{
+    position:absolute;
+    right: 1rem;
+    margin-right: 7rem;
+    margin-top: 3rem;
+    width: 400px;
+    height: 400px;
+    z-index: 0;
+}
+
+.container3 .leaf3{
+    position: absolute;
+    z-index: 2;
+    top: 10rem;
+    left: 13rem;
+    width: 200px;
+    height: 250px;
+    background-image: url(images/leaf3.png);
+    background-size: cover;
+}
+
+.container3 .blob{
+    background-image: url(images/blob2.png);
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    float: right;
+    z-index: -1;
+    right: 3rem;
+    top: 92rem;
+    background-size: cover;
+}
+
+.container3 .leaf4{
+    position: absolute;
+    right: 2rem;
+    width: 250px;
+    height: 250px;
+    background-image: url(images/leaf4.png);
+    background-size: cover;
+}
+
+.container-pricing .leaf5{
+    position: absolute;
+    right: 4rem;
+    right: 25rem;
+    top: 128rem;
+    width: 150px;
+    height: 100px;
+    background-image: url(images/leaf5.png);
+    background-size: cover;
+}
+
+.container-pricing .sub-header-2{
+    color: #444474;
+    width: 400px;
+    position: absolute;
+    float: right;
+    right: 20rem;
+    top: 136rem;
 }
