@@ -129,16 +129,25 @@ nav{
     width: 100%;
 }
 
+
 .container2{
     background-color: #C9ADA7;
     display: flex;
     height: 500px;
-    position: relative;
+    /* position: relative; */
 }
 
-.container2 img{
-    margin-left: 15rem;
-    margin-top: 3rem;
+.container-img {
+    position: relative;
+    width: 50%;
+}
+
+.container-img img{
+    /* margin-left: 15rem;
+    margin-top: 3rem; */
+    position: absolute;
+    top: 4rem;
+    left: 14rem;
     width: 400px;
     height: 400px;
     z-index: 1;
@@ -156,7 +165,7 @@ nav{
 }
 
 .container2 .leaf3{
-    position: absolute;
+    position:  absolute;
     z-index: 2;
     top: 15rem;
     left: 13rem;
@@ -167,13 +176,14 @@ nav{
 }
 
 .container2 .header-text{
+    width: 50%;
     position: relative;
     display: grid;
     text-align: center;
-    max-width: 1000px;
+    /* max-width: 1000px; */
     padding: 1rem 1rem;
     /* background-color: #c1c8f0;  */
-    margin-left: 10rem;
+    /* margin-left: 10rem; */
     
 }
 
