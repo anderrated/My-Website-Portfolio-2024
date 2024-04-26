@@ -132,12 +132,12 @@ nav{
 .container2{
     background-color: #C9ADA7;
     display: flex;
-    height: 500px;
+    padding: 5rem 0;
 }
 
 .container-img {
-    position: relative;
     width: 50%;
+    min-width: 50vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -171,9 +171,6 @@ nav{
 }
 
 .container2 .header-text{
-    width: 50%;
-    position: relative;
-    display: grid;
     text-align: center;
     padding: 1rem 1rem;
     /* background-color: #c1c8f0;  */
