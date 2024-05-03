@@ -218,6 +218,7 @@ h2 .leaf2{
     cursor: pointer;
     transition: all 0.3s ease;
     margin: auto;
+    margin-top: 2rem;
 }
 
 .btn:hover{
@@ -226,7 +227,9 @@ h2 .leaf2{
 
 .container-features{
     background-color: #fff;
-    height: 30rem;
+    height: 100%;
+    display: flexbox;
+    padding-bottom: 8rem;
 }
 
 section .header{
@@ -398,7 +401,7 @@ section .header{
 }
 
 .container3 img{
-    position:absolute;
+    position:relative;
     right: 1rem;
     margin-right: 7rem;
     margin-top: 3rem;
@@ -407,10 +410,14 @@ section .header{
     z-index: 0;
 }
 
+.container3{
+    display: flex;
+}
+
 .container3 .leaf3{
-    position: absolute;
+    position: relative;
     z-index: 2;
-    top: 10rem;
+    top: 30rem;
     left: 13rem;
     width: 200px;
     height: 250px;
@@ -445,8 +452,7 @@ section .header{
     right: 25rem;
     top: 128rem;
     width: 150px;
-    height: 100px;
-    background-image: url(images/leaf5.png);
+    height: 100px; 
     background-size: cover;
 }
 
@@ -556,12 +562,21 @@ footer .column > a:hover{
     .container2 img{
         order: -1;
     }
+    .container1 p{
+        font-size: 0.75rem;
+    }
     .container1 .header-text .leaf2{
         right: -1rem ;
         top: 10rem;
     }
-        
+    .container-features{
+       height: 300%;
     }
+    .features{
+        grid-template-columns: repeat(2, 1fr);
+        margin: auto;
+    }
+}
 
 @media (width < 800px){
     .container2{
@@ -572,7 +587,7 @@ footer .column > a:hover{
         top: 12rem;
     }
 }
-
+/* 
 *{
     outline: 1px solid red;
-}
+} */
