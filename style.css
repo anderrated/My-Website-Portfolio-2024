@@ -356,6 +356,7 @@ section .header{
     border-radius: 50px;
     transition: all 0.3s ease;
     width: 350px;
+    max-height: 27rem;
 }
 
 .container-pricing .pricing #card6{
@@ -376,7 +377,10 @@ section .header{
 
 .pricing .card .content{
     flex: 1;
-    margin-bottom: 2rem;
+}
+
+.pricing .card .content .btn{
+    margin-top: 0;
 }
 
 .pricing .card h4{
@@ -441,7 +445,8 @@ section .header{
 .container-pricing .note{
     display: flex;
     justify-content: center;
-    transform: translate(30%, -860%);
+    transform: translate(175%, -760%);
+    width: fit-content;
 }
 
 .container-pricing .note .leaf5{
@@ -579,10 +584,45 @@ footer .column > a:hover{
     }
     .features{
         grid-template-columns: repeat(2, 1fr);
-        margin: 2rem;
+        margin: 4rem;
+    }
+    .container3{
+        float: none;
+        transform: translateY(10%);
     }
 
-}
+    .container-pricing{
+        display: flexbox;
+    }
+
+    .pricing{
+        display: grid;
+        grid-template-columns: (3, 1fr);
+        gap: 2rem;
+        justify-items: center;
+    }
+
+    .pricing .card{
+        margin-top: 3rem;
+        height: 30rem;
+    }
+     
+    .container-pricing .pricing #card5{
+        top: 0;
+        left: 0;
+        position: none;
+    }
+   
+    .container-pricing .pricing #card6{
+        top: 0;
+        left: 0;
+        position: none;
+    }
+    .container-pricing .pricing #card7{
+        top: 0;
+        left: 0;
+        position: none;
+    }
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
@@ -590,7 +630,7 @@ footer .column > a:hover{
     width: 100%;
   }
 }
-
+/* 
 *{
     outline: 1px solid red;
-}
+} */
