@@ -399,70 +399,65 @@ section .header{
 .pricing .card p{
     color: #9A8C98;
 }
-
-.container3 img{
-    position:relative;
-    right: 1rem;
-    margin-right: 7rem;
-    margin-top: 3rem;
-    width: 400px;
-    height: 400px;
-    z-index: 0;
+.container2{
+    display: flex;
+    justify-content: center;
 }
 
 .container3{
     display: flex;
-}
-
-.container3 .leaf3{
-    position: relative;
-    z-index: 2;
-    top: 30rem;
-    left: 13rem;
-    width: 200px;
-    height: 250px;
-    background-image: url(images/leaf3.png);
-    background-size: cover;
-}
-
-.container3 .blob{
-    background-image: url(images/blob2.png);
-    position: absolute;
-    height: 400px;
-    width: 400px;
+    justify-content: center;
+    align-items: center;
+    min-width: 50vw;
     float: right;
-    z-index: -1;
-    right: 3rem;
-    top: 92rem;
-    background-size: cover;
-}
 
+}
+.container3 img{
+    width: 400px;
+    height: 400px;
+    z-index: 0;
+    display: block;
+}
 .container3 .leaf4{
     position: absolute;
-    right: 2rem;
+    z-index: 2;
     width: 250px;
     height: 250px;
     background-image: url(images/leaf4.png);
     background-size: cover;
+    transform: translate(70%, -30%);
 }
 
-.container-pricing .leaf5{
+.container3 .blob{
     position: absolute;
-    right: 4rem;
-    right: 25rem;
-    top: 128rem;
+    background-image: url(images/blob2.png);
+    height: 400px;
+    width: 400px;
+    z-index: -1;
+    background-size: cover;
+    transform: translate(8%, -3%);
+}
+
+.container-pricing .note{
+    display: flex;
+    justify-content: center;
+    transform: translate(30%, -860%);
+}
+
+.container-pricing .note .leaf5{
+    position: absolute;;
+    transform: translateY(-100%);
     width: 150px;
     height: 100px; 
     background-size: cover;
+    z-index: 1;
 }
 
-.container-pricing .sub-header-2{
+.container-pricing .note .sub-header-2{
     color: #444474;
     width: 400px;
-    position: absolute;
-    float: right;
-    right: 20rem;
-    top: 136rem;
+    /* right: 20rem;
+    top: 136rem; */
 }
 
 footer{
@@ -547,9 +542,19 @@ footer .column > a:hover{
     .container2{
         height: 40rem;
     }
-}
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
 
-@media (width < 1000px){
     .nav-links{
         display: none;
     }
@@ -574,20 +579,18 @@ footer .column > a:hover{
     }
     .features{
         grid-template-columns: repeat(2, 1fr);
-        margin: auto;
+        margin: 2rem;
     }
+
 }
 
-@media (width < 800px){
-    .container2{
-        height: 64rem;
-    }
-    .container2 .header-text .leaf2{
-        right: -2rem ;
-        top: 12rem;
-    }
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
 }
-/* 
+
 *{
     outline: 1px solid red;
-} */
+}
