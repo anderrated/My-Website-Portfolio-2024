@@ -597,31 +597,25 @@ footer .column > a:hover{
 
     .pricing{
         display: grid;
-        grid-template-columns: (3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         gap: 2rem;
         justify-items: center;
+        align-items: center;
+        margin: auto;
     }
 
     .pricing .card{
         margin-top: 3rem;
         height: 30rem;
     }
-     
-    .container-pricing .pricing #card5{
-        top: 0;
-        left: 0;
-        position: none;
-    }
-   
+    
     .container-pricing .pricing #card6{
         top: 0;
         left: 0;
-        position: none;
     }
     .container-pricing .pricing #card7{
         top: 0;
         left: 0;
-        position: none;
     }
 
 @media only screen and (max-width: 768px) {
