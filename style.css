@@ -593,6 +593,7 @@ footer .column > a:hover{
 
     .container-pricing{
         display: flexbox;
+        height: 85rem;
     }
 
     .pricing{
@@ -617,6 +618,12 @@ footer .column > a:hover{
         top: 0;
         left: 0;
     }
+
+    .container-pricing .note{
+        transform: translate(-180%, 700%);
+        
+    }
+}
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
