@@ -259,6 +259,7 @@ button:hover{
     margin: 0 5px;
     border: 1px solid #c33a66;
     transition: 0.3s;
+    background: #ede5b0;
 }
 
 .button button:hover{
