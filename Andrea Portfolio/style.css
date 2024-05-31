@@ -278,6 +278,9 @@ button:hover{
     .image-wrapper{
         margin-top: 0vh;
     }
+    .container{
+        align-items: center;
+    }
 }
 
 @media screen and (max-width: 720px) {
