@@ -259,7 +259,7 @@ button:hover{
     margin: 0 5px;
     border: 1px solid #c33a66;
     transition: 0.3s;
-    background: #ede5b0;
+    background: rgba(235, 225, 169, 0.70);
 }
 
 .button button:hover{
