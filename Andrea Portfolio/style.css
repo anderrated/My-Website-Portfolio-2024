@@ -257,13 +257,13 @@ button:hover{
     border: none;
     cursor: pointer;
     margin: 0 5px;
-    border: 1px solid #c33a66;
+    border: 1px solid #ffffff;
     transition: 0.3s;
-    background: rgba(235, 225, 169, 0.70);
+    background: rgba(202, 89, 217, 0.70);
 }
 
 .button button:hover{
-    background: #ea5790;
+    background: #e0d7ab;
     color: #fff;
 }
 
