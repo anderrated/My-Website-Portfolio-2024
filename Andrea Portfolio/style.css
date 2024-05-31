@@ -43,30 +43,36 @@ body{
     -webkit-backdrop-filter: blur(11.6px);
 }
 
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 .logo{
     display: inline-block;
     font-size: 30px;
     font-weight: 600;
-    margin-top: -10px;
 }
 
 ul.nav-links{
     margin: 0;
-    float: right;
     display: flex;
     list-style: none;
+    padding: 0;
+    gap: 0 30px;
+    flex-wrap: wrap;
 }
 
 li.nav-link{
     display: inline-block;
-    margin-left: 30px;
     font-size: 17px;
     font-weight: 300;
 }
 
 .nav-link a{
-    position: relative;
-    padding-bottom: 0.75rem;
     color: #ffffff;
 }
 
