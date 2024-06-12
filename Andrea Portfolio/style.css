@@ -32,7 +32,8 @@ body{
 
 .glass-container{
     display: block;
-    max-width: 50vw;
+    min-width: 50vw;
+    min-height: 70vh;
     margin-top: 10vh;
     margin-bottom: 30px;
     background: rgba(255, 255, 255, 0.20);
@@ -159,10 +160,6 @@ button:hover{
 }
 
 /* GALLERY */
-.glass-container{
-    width: 1000px;
-    height: 600px;
-}
 
 .glass-container .slide{
     width: 100%;
@@ -312,6 +309,12 @@ button:hover{
     }
     .attribute{
         text-align: center;
+    }
+    .slide .item .content{
+        left: 50px;
+    }
+    .content .name{
+        font-size: 70px;
     }
 }
 
