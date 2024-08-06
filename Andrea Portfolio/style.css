@@ -31,7 +31,7 @@ body{
 }
 
 .glass-container{
-    display: block;
+    display: flexbox;
     min-width: 50vw;
     min-height: 70vh;
     margin-top: 10vh;
