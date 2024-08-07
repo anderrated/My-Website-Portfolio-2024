@@ -11,17 +11,20 @@ prev.addEventListener('click', function(){
     document.querySelector('.slide').prepend(items[items.length - 1]) // here the length of items = 6
 })
 
-function removeTwoSlides(){
-    console.log('Script is running');
-    const items = document.querySelectorAll('.item');
-    if (window.innerWidth <= 1075) {
-        for (let i = items.length - 2; i < items.length; i++) {
-            items[i].classList.add('hidden');
-        }
-    } else {
-        items.forEach(item => item.classList.remove('hidden'));
-        }
-}
+// function removeTwoSlides(){
+//     const items = document.querySelectorAll('.item');
+//     if (items.length > 1){
+//         items[items.length - 1].remove();
+//         items[items.length - 2].remove();
+//     }
+// }
 
-window.addEventListener('resize', removeTwoSlides);
-window.addEventListener('load', removeTwoSlides);
+// function checkMediaQuery(){
+//     const mediaQuery = window.matchMedia('(max-width: 1075px)');
+//     if (mediaQuery.matches){
+//         removeTwoSlides();
+//     }
+// }
+
+// checkMediaQuery();
+// window.addEventListener('resize', checkMediaQuery);
