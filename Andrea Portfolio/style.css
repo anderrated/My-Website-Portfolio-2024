@@ -236,6 +236,7 @@ button:hover{
 }
 
 .content .des{
+    width: 80%;
     margin-top: 10px;
     margin-bottom: 20px;
     opacity: 0;
@@ -280,12 +281,12 @@ button:hover{
     border: none;
     cursor: pointer;
     margin: 0 5px;
-    border: 1px solid #000;
+    border: 1px solid #ffffff;
     transition: 0.3s;
 }
 
 .button button:hover{
-    background: #ababab;
+    background: #d128ac;
     color: #fff;
 }
 
