@@ -329,6 +329,12 @@ button:hover{
     }
 }
 
+@media screen and (min-width: 1620px) and (max-width: 2160px){
+    .glass-container{
+        overflow: hidden;
+    }
+}
+
 @media screen and (max-width: 1075px) {
     .main{
         margin-top: 0vh;
