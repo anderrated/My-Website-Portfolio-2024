@@ -275,19 +275,20 @@ button:hover{
 }
 
 .button button{
-    width: 40px;
-    height: 35px;
+    width: 50px;
+    height: 40px;
     border-radius: 8px;
     border: none;
     cursor: pointer;
     margin: 0 5px;
-    border: 1px solid #ffffff;
+    border: 1px solid #fefefe;
+    background-color: rgb(234, 49, 151);
     transition: 0.3s;
 }
 
 .button button:hover{
-    background: #d128ac;
-    color: #fff;
+    background: #520e8e;
+    color: #ffffff;
 }
 
 /*Photo Gallery*/
@@ -335,7 +336,7 @@ button:hover{
     }
 }
 
-@media screen and (max-width: 1075px) {
+@media screen and (max-width: 1200px) {
     .main{
         margin-top: 0vh;
     }
@@ -375,6 +376,10 @@ button:hover{
         border-radius: 20px;
         overflow: hidden;
     }
+    .button button{
+        width: 90px;
+        height: 80px;
+    }
 }
 
 @media only screen and (max-width: 769px) {
@@ -393,10 +398,6 @@ button:hover{
     .main p{
         font-size: 15px;
     }
-    button{
-        font-size: 0.80rem;
-        height: 3rem;
-    }
     .image-wrapper img{
         width: 150vw;
     }
@@ -405,11 +406,5 @@ button:hover{
     }
     .photobox .box .dream{
         width: 100%;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    button{
-        height: 5;
     }
 }
