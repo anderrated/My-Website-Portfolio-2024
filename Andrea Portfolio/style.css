@@ -377,8 +377,8 @@ button:hover{
         overflow: hidden;
     }
     .button button{
-        width: 90px;
-        height: 80px;
+        width: 60px;
+        height: 50px;
     }
 }
 
