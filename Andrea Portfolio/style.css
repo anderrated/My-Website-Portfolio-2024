@@ -148,7 +148,7 @@ button:hover{
 }
 
 .image-wrapper img{
-    max-width: 25vw;
+    width: 30vw;
     object-fit: cover;
 }
 
@@ -347,6 +347,9 @@ button:hover{
     .image-wrapper{
         margin-top: 0vh;
     }
+    .image-wrapper img{
+        width: 70vw;
+    }
     li.nav-link{
         font-size: 1rem;
     }
@@ -395,7 +398,7 @@ button:hover{
         height: 3rem;
     }
     .image-wrapper img{
-        max-width: 65vw;
+        width: 150vw;
     }
     .photobox .box{
         flex-direction: column;
